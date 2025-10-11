@@ -1,4 +1,4 @@
-import { Geist, Geist_Mono, Kanit, Cedarville_Cursive } from "next/font/google";
+import { Geist, Geist_Mono, Kanit, Cedarville_Cursive, Edu_NSW_ACT_Cursive } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -17,7 +17,7 @@ const  kanit = Kanit({
 
 
 })
-const cursive = Cedarville_Cursive({
+const cursive = Edu_NSW_ACT_Cursive({
   variable: "--font-cursive",
   weight: ["400"]
 })
@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${kanit.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${kanit.variable} ${cursive.variable} antialiased`}
       >
         {children}
       </body>

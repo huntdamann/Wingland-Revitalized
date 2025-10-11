@@ -13,7 +13,7 @@ export default function ReviewCard({review}) {
             <div className="absolute bottom-3 right-8">
                 {review.author}    
             </div>  
-            <div className="mb-1">
+            <div id="blog-font-content" className="mb-1">
                 {review.text}    
             </div>  
         </div>    

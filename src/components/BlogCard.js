@@ -12,7 +12,7 @@ export default function BlogCard({image, title, description, lookNumber, comment
         <div className="border p-7 rounded-md  text-center  justify-center flex flex-col gap-3 bg-red-100">
 
 
-            <div className="text-xl font-extrabold">
+            <div id="blog-font" className="text-xl font-extrabold">
 
                 {title}
             </div>  
@@ -35,7 +35,7 @@ export default function BlogCard({image, title, description, lookNumber, comment
                     {author}
                 </div>
             </div>
-            <div>
+            <div id="blog-font-content" className="text-sm">
                 {description}    
             </div>  
         </div>    

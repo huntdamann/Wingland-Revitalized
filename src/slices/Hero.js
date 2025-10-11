@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <>
     
-      <section className="mt-[4.5rem] bg-black text-white border p-4 flex flex-col gap-[3rem]">
+      <section className="mt-[4.5rem] bg-black text-white  p-4 flex flex-col gap-[3rem]">
         <h1>
             Enjoy The <span className="text-red-500"> Savory </span>  Side of Southern Charm
         </h1>

@@ -31,9 +31,18 @@ h1 {
   font-family: var(--font-kanit), sans-serif;
 
 }
+#blog-font {
+  font-family: var(--font-kanit), sans-serif;
+
+}
+#blog-font-content {
+  font-family: var(--font-kanit), sans-serif;
+  font-size: 1rem;
+
+}
 h2 {
   font-family: var(--font-cursive), sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 400;
 }
 p {
