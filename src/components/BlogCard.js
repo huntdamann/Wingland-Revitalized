@@ -9,7 +9,7 @@ export default function BlogCard({image, title, description, lookNumber, comment
   return (
     <>
 
-        <div className="border p-7 rounded-md  text-center  justify-center flex flex-col gap-3 bg-red-100">
+        <div className="border p-7 dark:text-black rounded-md  text-center  justify-center flex flex-col gap-3 bg-red-100">
 
 
             <div id="blog-font" className="text-xl font-extrabold">
