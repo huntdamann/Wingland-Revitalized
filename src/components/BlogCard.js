@@ -9,14 +9,14 @@ export default function BlogCard({image, title, description, lookNumber, comment
   return (
     <>
 
-        <div className="border p-7 dark:text-black rounded-md  text-center  justify-center flex flex-col gap-3 bg-red-100">
+        <div className="border p-7 dark:text-black rounded-md  text-center lg:max-w-[30rem]  justify-center flex flex-col gap-3 bg-red-100">
 
 
             <div id="blog-font" className="text-xl font-extrabold">
 
                 {title}
             </div>  
-            <div className="relative rounded-2xl min-h-[15rem]">
+            <div className="relative rounded-2xl min-h-[15rem] lg:max-w-[30rem]">
               <Image src={image}  alt="flex" fill className="object-cover rounded-xl" />
             </div>  
             <div className="flex gap-4  items-center justify-center text-center">

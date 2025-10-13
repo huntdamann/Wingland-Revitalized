@@ -17,7 +17,7 @@ export default function Blog() {
 
     <>
     
-        <section className="flex text-center flex-col gap-4 p-3">
+        <section className="flex text-center flex-col items-center gap-4 p-3">
 
 
             <h2>Blog</h2>

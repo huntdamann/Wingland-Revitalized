@@ -11,8 +11,8 @@ export default function Bento({photo, photo1, photo2, photo3}) {
   return (
     <>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 w-full">
-        <motion.div initial={{y: 25, opacity: 0}} whileInView={{y:0, opacity: 1}} className="relative aspect-square rounded-md overflow-hidden">
+      <div className="grid  lg:w-[50rem] grid-cols-1 md:grid-cols-2 gap-4 p-4 w-full">
+        <motion.div initial={{x: -55, opacity: 0}} whileInView={{x:0, opacity: 1}} className="relative aspect-square rounded-md overflow-hidden">
 
         <Image
             src={photo}
@@ -22,7 +22,7 @@ export default function Bento({photo, photo1, photo2, photo3}) {
         />
 
         </motion.div>
-        <motion.div initial={{y: 25, opacity: 0}} whileInView={{y:0, opacity: 1}} className="relative aspect-square rounded-md overflow-hidden">
+        <motion.div initial={{x: 55, opacity: 0}} whileInView={{x:0, opacity: 1}} className="relative aspect-square rounded-md overflow-hidden">
 
         <Image
             src={photo1}
@@ -32,7 +32,7 @@ export default function Bento({photo, photo1, photo2, photo3}) {
         />
 
         </motion.div>
-        <motion.div initial={{y: 25, opacity: 0}} whileInView={{y:0, opacity: 1}} className="relative aspect-square rounded-md overflow-hidden">
+        <motion.div initial={{x: -55, opacity: 0}} whileInView={{x:0, opacity: 1}} className="relative aspect-square rounded-md overflow-hidden">
 
         <Image
             src={photo2}
@@ -42,7 +42,7 @@ export default function Bento({photo, photo1, photo2, photo3}) {
         />
 
         </motion.div>
-        <motion.div initial={{y: 25, opacity: 0}} whileInView={{y:0, opacity: 1}} className="relative aspect-square rounded-md overflow-hidden">
+        <motion.div initial={{x: 55, opacity: 0}} whileInView={{x:0, opacity: 1}} className="relative aspect-square rounded-md overflow-hidden">
 
         <Image
             src={photo3}

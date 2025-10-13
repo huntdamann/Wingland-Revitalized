@@ -17,7 +17,7 @@ export default function Service() {
 
     <>
     
-        <section className="flex flex-col gap-4 p-3">
+        <section className="flex flex-col items-center justify-center gap-4 p-3">
 
             <ServiceCard icon={<FaUtensils />} title={"Quality Food"} description={descriptions}  />
             <ServiceCard icon={<FaShippingFast />} title={"Fast Delivery"} description={descriptions}  />

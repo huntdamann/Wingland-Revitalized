@@ -35,7 +35,7 @@ export default function Home() {
       <Welcome />
       <MTW />
       <Blog />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Menu />
       <Footer />
       

@@ -13,7 +13,7 @@ export default function Menu() {
   return (
     <>
     
-        <section className="bg-black text-white  p-6 gap-8 flex text-center flex-col min-h-[100dvh]">
+        <section className="bg-black text-white  p-6 gap-8 flex items-center text-center flex-col min-h-[100dvh]">
 
             <div className="flex flex-col items-center justify-center">
                 <Image src='/logo-website.png' width={70} height={150} alt="Logo" />
@@ -21,9 +21,9 @@ export default function Menu() {
             </div>
             
 
-            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias eius, sunt quia mollitia fuga libero quaerat neque! Corrupti ad, ea sapiente reiciendis, nemo eaque iure necessitatibus, ut adipisci illum magni!</span>
+            <span className="lg:w-[20rem]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias eius, sunt quia mollitia fuga libero quaerat neque! Corrupti ad, ea sapiente reiciendis, nemo eaque iure necessitatibus, ut adipisci illum magni!</span>
 
-            <motion.div initial={{opacity: 0}} whileInView={{opacity: 1}} className="relative min-h-[15rem]">
+            <motion.div initial={{opacity: 0}} whileInView={{opacity: 1}} className="relative min-h-[15rem] lg:min-h-[20rem] w-[30rem]">
               <Image src='/schedule_2.png'  alt="flex" fill className="object-cover" />
             </motion.div>  
 

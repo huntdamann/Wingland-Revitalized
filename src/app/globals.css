@@ -103,12 +103,18 @@ span {
 .testimonial-wrapper {
 
   position: relative;
+  border: 1px red solid;
+  display: flex;
+  justify-items:  center;
+  align-items: center;
 }
 .testimonial-track {
 
   display: flex;
   gap: 1.3rem;
   width: 100%;
+  border: 1px blue solid;
+  align-items: center;
 }
 
 @keyframes loadbar {
