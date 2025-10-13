@@ -12,6 +12,7 @@ import Blog from "@/slices/Blog";
 import Menu from "@/slices/Menu";
 import Footer from "@/slices/Footer";
 import Testimonials from "@/slices/Testimonials";
+import SimpleMenu from "@/components/SimpleMenu";
 
 import Head from "next/head";
 import { useState } from "react";
@@ -19,7 +20,7 @@ import { useState } from "react";
 export default function Home() {
 
   const [showMain, setShowMain] = useState(false);
-
+const [openMenu, setOpenMenu ] = useState(true)
 
 
 
@@ -29,7 +30,8 @@ export default function Home() {
     {!showMain && <Preloader onFinish={() => setShowMain(true)} />}
 
     
-      <Header />
+      <Header setOpen={setOpenMenu} />
+      <SimpleMenu open={openMenu} setOpen={setOpenMenu} />
       <Hero />
       <Service />
       <Welcome />

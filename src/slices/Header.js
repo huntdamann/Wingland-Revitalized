@@ -8,7 +8,7 @@ import { useState, useEffect } from "react";
 import { FiAlignJustify, FiSearch, FiShoppingCart } from "react-icons/fi";
 
 
-export default function Header() {
+export default function Header({  setOpen }) {
 
 
     const [showNav, setShowNav] = useState(true);
@@ -38,7 +38,7 @@ export default function Header() {
     <header className={`fixed top-0 left-0 w-full transition-transform duration-300 ${
         showNav ? "translate-y-0" : "-translate-y-full"
       } bg-red-500 z-50 flex justify-between gap-7 p-6 items-center `}>
-        <FiAlignJustify className="text-3xl" />
+        <FiAlignJustify onClick={() => setOpen(true)} className="text-3xl" />
         <div className="absolute left-1/2 transform -translate-x-1/2">
 
         <Image className="border" src="/logo-website.png" width={60} height={100} alt="Logo" /> 
