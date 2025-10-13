@@ -8,9 +8,9 @@ export default function MTW() {
     <>
 
 
-      <section className="min-h-screen flex flex-col gap-5 mb-[5rem] justify-center items-center text-center p-4">
+      <section id="mtw-section" className="min-h-screen flex flex-col gap-5 mb-[5rem] justify-center items-center text-center p-4">
 
-        <h2>More Than Wings</h2>
+        <h2 className="text-white">More Than Wings</h2>
         <div className="grid grid-cols-1 gap-2">
 
             <motion.div initial={{y: 25, opacity: 0}} whileInView={{y:0, opacity: 1}} className="relative min-h-[15rem] w-[30rem]  ">

@@ -117,6 +117,10 @@ span {
   align-items: center;
 }
 
+#mtw-section {
+  background-image: linear-gradient(to bottom, #000000, #060203, #7a0321, #a1001d, #a51313 50%);
+}
+
 @keyframes loadbar {
   from {
     width: 0%;
