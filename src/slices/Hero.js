@@ -4,6 +4,8 @@ import { motion } from 'motion/react'
 
 export default function Hero() {
 
+  console.log(typeof NaN);
+
 
   return (
     <>
