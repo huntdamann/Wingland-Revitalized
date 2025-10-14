@@ -20,7 +20,7 @@ import { useState } from "react";
 export default function Home() {
 
   const [showMain, setShowMain] = useState(false);
-const [openMenu, setOpenMenu ] = useState(true)
+const [openMenu, setOpenMenu ] = useState(false)
 
 
 
