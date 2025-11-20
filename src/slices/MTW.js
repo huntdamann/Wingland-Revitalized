@@ -8,7 +8,7 @@ export default function MTW() {
     <>
 
 
-      <section id="mtw-section" className="min-h-screen flex flex-col gap-5 mb-[5rem] justify-center items-center text-center p-4">
+      <section id="mtw-section" className="min-h-screen flex flex-col gap-8 mb-[5rem] justify-center items-center text-center p-4">
 
         <h2 className="text-white">More Than Wings</h2>
         <div className="grid grid-cols-1 gap-2">
@@ -27,7 +27,7 @@ export default function MTW() {
             </motion.div>
         </div>
        
-       <motion.div initial={{y:25}} whileInView={{y:0}} className="">
+       <motion.div initial={{y:25}} whileInView={{y:0}} className="mb-12">
         <button className=" w-[10rem] hover:bg-red-200  p-3 rounded-md bg-red-400"> View Menu </button>
 
 

@@ -23,7 +23,7 @@ export default function Menu() {
 
             <span className="lg:w-[20rem]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias eius, sunt quia mollitia fuga libero quaerat neque! Corrupti ad, ea sapiente reiciendis, nemo eaque iure necessitatibus, ut adipisci illum magni!</span>
 
-            <motion.div initial={{opacity: 0}} whileInView={{opacity: 1}} className="relative min-h-[15rem] lg:min-h-[20rem] w-[30rem]">
+            <motion.div initial={{opacity: 0}} whileInView={{opacity: 1}} className="relative min-h-[20rem] lg:min-h-[20rem] w-[30rem]">
               <Image src='/schedule_2.png'  alt="flex" fill className="object-cover" />
             </motion.div>  
 

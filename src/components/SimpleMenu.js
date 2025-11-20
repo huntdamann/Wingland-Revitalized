@@ -42,7 +42,7 @@ export default function SimpleMenu({ open, setOpen }) {
                 Home
             </li>
           </ul>
-          <Image className="border bottom-8 right-8 absolute" src='/avatars/chicken.png' width={70} height={100} alt="Mascot" />
+          <Image className="bottom-12 right-8 absolute" src='/avatars/chicken.png' width={70} height={100} alt="Mascot" />
 
 
         </motion.div>

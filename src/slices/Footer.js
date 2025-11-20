@@ -22,7 +22,7 @@ export default function Footer() {
           className="text-center text-xs text-gray-500 py-4"
         >
           © Wingland 2025. All Rights Reserved — Crafted by 
-          <a href="https://humann.design" target="_blank" className="font-semibold hover:underline ml-1">
+          <a href="https://humanndesign.com" target="_blank" className="font-semibold hover:underline ml-1">
             HUMANNDESIGN
           </a>
       </motion.footer>
